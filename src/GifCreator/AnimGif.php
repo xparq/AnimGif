@@ -203,7 +203,7 @@ class AnimGif
 			}
 
 			if ($i == 0) {
-				$this->transparent_color = imagecolortransparent($resourceImg);
+				$this->transparent_color = -1;
 			}
 
 			for ($j = (13 + 3 * (2 << (ord($this->frameSources[$i] { 10 }) & 0x07))), $k = TRUE; $k; $j++) {
